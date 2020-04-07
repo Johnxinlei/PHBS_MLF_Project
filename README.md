@@ -15,7 +15,7 @@ Project in MLF Course
 The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
 ## 3. Sources
-   Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
+   Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,  https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
    
 
 

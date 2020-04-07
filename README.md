@@ -9,17 +9,6 @@ Project in MLF Course
 |[Wang Lei](https://github.com/wlfengwuhen)| 1801212802 |
 |[Sun Xiuwen](https://github.com/Sunlalaa)| 1801212801 |
 
-
-# Citation Request:
-  This dataset is public available for research. The details are described in [Moro et al., 2011]. 
-  Please include this citation if you plan to use this database:
-
-  [Moro et al., 2011] S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology. 
-  In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimarães, Portugal, October, 2011. EUROSIS.
-
-  Available at: [pdf] http://hdl.handle.net/1822/14838
-                [bib] http://www3.dsi.uminho.pt/pcortez/bib/2011-esm-1.txt
-
 ## 1. Title: Bank Marketing
 
 ## 2. Sources
@@ -75,7 +64,6 @@ Project in MLF Course
   14 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
   15 - previous: number of contacts performed before this campaign and for this client (numeric)
   16 - poutcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
-
   Output variable (desired target):
   17 - y - has the client subscribed a term deposit? (binary: "yes","no")
 

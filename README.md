@@ -27,7 +27,7 @@ The classification goal is to predict if the client will subscribe a term deposi
   3) bank-full.csv with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs).
   4) bank.csv with 10% of the examples and 17 inputs, randomly selected from iii (older version of this dataset with less inputs).
 * The classification goal is to predict if the client will subscribe a term deposit (variable y).
-
+![](./data.png)
 
 ## Attribute information:
 

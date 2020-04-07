@@ -37,7 +37,8 @@ The classification goal is to predict if the client will subscribe a term deposi
 
    Input variables:
    bank client data:
-   1 - age (numeric)
+   
+   - `age (numeric)`
    
    2 - job : type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student",
                                        "blue-collar","self-employed","retired","technician","services") 

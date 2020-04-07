@@ -20,15 +20,8 @@ Since term deposit is one major stable and credible financing source of banks, h
 
 ## Data description:
 
-* The data is related with direct marketing campaigns of a Portuguese banking institution. 
-     The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, 
-     in order to access if the product (bank term deposit) would be (or not) subscribed. 
-* There are four datasets: 
-  1) bank-additional-full.csv with all examples (41188) and 20 inputs, ordered by date (from May 2008 to November 2010)
-  2) bank-additional.csv with 10% of the examples (4119), randomly selected from i, and 20 inputs.
-  3) bank-full.csv with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs).
-  4) bank.csv with 10% of the examples and 17 inputs, randomly selected from iii (older version of this dataset with less inputs).
-* The classification goal is to predict if the client will subscribe a term deposit (variable y).
+* The data is related with direct marketing campaigns of a Portuguese banking institution. It contains 4521 observations along with 16 features about information of clients.
+
 ![](./data.png)
 
 ## Attribute information:

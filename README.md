@@ -30,11 +30,8 @@ The classification goal is to predict if the client will subscribe a term deposi
       2) bank.csv with 10% of the examples (4521), randomly selected from bank-full.csv.
    The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
-## 5. Number of Instances: 45211 for bank-full.csv (4521 for bank.csv)
 
-## 6. Number of Attributes: 16 + output attribute.
-
-## 7. Attribute information:
+## 5. Attribute information:
 
    For more information, read [Moro et al., 2011].
 
@@ -76,4 +73,8 @@ The classification goal is to predict if the client will subscribe a term deposi
        Output variable (desired target):
        
   17 - y - has the client subscribed a term deposit? (binary: "yes","no")
+  
+  ##### Number of Instances: 45211 for bank-full.csv (4521 for bank.csv)
+
+  ##### Number of Attributes: 16 + output attribute.
 

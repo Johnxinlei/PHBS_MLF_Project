@@ -55,9 +55,7 @@ The classification goal is to predict if the client will subscribe a term deposi
    
    7 - housing: has housing loan? (binary: "yes","no")
    
-   8 - loan: has personal loan? (binary: "yes","no")
-   
-       related with the last contact of the current campaign:
+   8 - loan: has personal loan? (binary: "yes","no") related with the last contact of the current campaign:
        
    9 - contact: contact communication type (categorical: "unknown","telephone","cellular") 
    

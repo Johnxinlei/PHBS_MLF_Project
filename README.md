@@ -8,10 +8,8 @@
 |[Wang Lei](https://github.com/wlfengwuhen)| 1801212802 |
 |[Sun Xiuwen](https://github.com/Sunlalaa)| 1801212801 |
 
-## Classification Goal
-The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
-## Sources
+## Data Sources
    Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,  https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
    
 

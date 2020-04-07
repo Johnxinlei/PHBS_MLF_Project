@@ -1,4 +1,4 @@
-# Prediction of Bank Term Deposit Subscription
+# Predicting Bank Term Deposit Subscription
 
 |     Name    | Student ID |
 |-------------| ---------- | 
@@ -7,6 +7,11 @@
 |[Huang Zongmin](https://github.com/dylanhzm)| 1801212785 |
 |[Wang Lei](https://github.com/wlfengwuhen)| 1801212802 |
 |[Sun Xiuwen](https://github.com/Sunlalaa)| 1801212801 |
+
+## Introduction
+Banking industry plays an important role in national economies. However, with the integration of global economy and innovation of financial instruments, traditional commercial banks are facing unprecedentedly fierce competition and high risk of losing customers. With the advent of the era of big data, the banks who can efficiently and effectively find, understand, and serve customers will take the lead in the fierce market competition. With the ability of analysis, prediction and insight of big data, we'd like to use machine learning method to predict results of bank marketing for certain types of customers and try to achieve precision marketing in the future.
+
+Since term deposit is one major stable and credible financing source of banks, here we use data related to the marketing activities of Portuguese banking institutions to predict customers’ term deposit subscription behaviors and understand customers’ features to improve the effectiveness and accuracy of bank marketing. This forecast can help make a preliminary plan for future work of banks, and it also provides a reference for whether certain type of customers will subscribe to term deposits.
 
 ## Classification Goal
 The classification goal is to predict if the client will subscribe a term deposit (variable y).

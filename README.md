@@ -32,43 +32,55 @@ The classification goal is to predict if the client will subscribe a term deposi
 ## Attribute information:
 
    Input variables:
-   bank client data:
+   * bank client data:
    
-   - `age (numeric)`
+     `age (numeric)`
    
-   - `job` : type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student",
+     `job` type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student",
                                        "blue-collar","self-employed","retired","technician","services") 
                                        
-   - `marital` : marital status (categorical: "married","divorced","single"; note: "divorced" means divorced or widowed)
+     `marital` marital status (categorical: "married","divorced","single"; note: "divorced" means divorced or widowed)
    
-   - `education` (categorical: "unknown","secondary","primary","tertiary")
+     `education` (categorical: "unknown","secondary","primary","tertiary")
    
-   - `default`: has credit in default? (binary: "yes","no")
+     `default` has credit in default? (binary: "yes","no")
    
-   - `balance`: average yearly balance, in euros (numeric) 
+     `housing` has housing loan? (binary: "yes","no")
    
-   - `housing`: has housing loan? (binary: "yes","no")
-   
-   - `loan`: has personal loan? (binary: "yes","no") related with the last contact of the current campaign:
+     `loan` has personal loan? (binary: "yes","no") related with the last contact of the current campaign:
        
-   - `contact`: contact communication type (categorical: "unknown","telephone","cellular") 
+     `contact` contact communication type (categorical: "unknown","telephone","cellular") 
    
-  - `day`: last contact day of the month (numeric)
+     `day` last contact day of the month (numeric)
   
-  - `month`: last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
+     `month` last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
   
-  - `duration`: last contact duration, in seconds (numeric)
-       other attributes:
+     `duration` last contact duration, in seconds (numeric)
+     
+  * other attributes:
        
-  - `campaign`: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+     `campaign` number of contacts performed during this campaign and for this client (numeric, includes last contact)
   
-  - `pdays`: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was          not previously contacted)
+     `pdays` number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was                not previously contacted)
   
-  - `previous`: number of contacts performed before this campaign and for this client (numeric)
+     `previous` number of contacts performed before this campaign and for this client (numeric)
   
-  - `poutcome`: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
-       Output variable (desired target):
-       
-  - `y` has the client subscribed a term deposit? (binary: "yes","no")
+     `poutcome`: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
+ 
+  * social and economic context attributes: 
+  
+     `emp.var.rate` employment variation rate - quarterly indicator (numeric)
+  
+     `cons.price.idx` consumer price index - monthly indicator (numeric)
+     
+     `cons.conf.idx` consumer confidence index - monthly indicator (numeric)
+     
+     `euribor3m` euribor 3 month rate - daily indicator (numeric)
+     
+     `nr.employed` number of employees - quarterly indicator (numeric)
+
+  * Output variable (desired target):  
+  
+     `y` has the client subscribed a term deposit? (binary: "yes","no")
   
 

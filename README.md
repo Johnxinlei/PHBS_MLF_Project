@@ -1,5 +1,4 @@
-# PHBS_MLF_Project
-Project in MLF Course
+# Prediction of Bank Term Deposit Subscription
 
 |     Name    | Student ID |
 |-------------| ---------- | 
@@ -9,17 +8,15 @@ Project in MLF Course
 |[Wang Lei](https://github.com/wlfengwuhen)| 1801212802 |
 |[Sun Xiuwen](https://github.com/Sunlalaa)| 1801212801 |
 
-## 1. Project: Prediction of Bank Term Deposit Subscription
-
-## 2. Classification Goal
+## Classification Goal
 The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
-## 3. Sources
+## Sources
    Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,  https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
    
 
 
-## 4. Relevant Information:
+## Relevant Information:
 
    The data is related with direct marketing campaigns of a Portuguese banking institution. 
    The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, 
@@ -31,7 +28,7 @@ The classification goal is to predict if the client will subscribe a term deposi
    The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
 
-## 5. Attribute information:
+## Attribute information:
 
    For more information, read [Moro et al., 2011].
 

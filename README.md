@@ -11,12 +11,15 @@ Project in MLF Course
 
 ## 1. Title: Bank Marketing
 
-## 2. Sources
-   Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012
+## 2. Classification Goal
+The classification goal is to predict if the client will subscribe a term deposit (variable y).
+
+## 3. Sources
+   Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
    
 
 
-## 3. Relevant Information:
+## 4. Relevant Information:
 
    The data is related with direct marketing campaigns of a Portuguese banking institution. 
    The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, 
@@ -27,11 +30,11 @@ Project in MLF Course
       2) bank.csv with 10% of the examples (4521), randomly selected from bank-full.csv.
    The classification goal is to predict if the client will subscribe a term deposit (variable y).
 
-## 4. Number of Instances: 45211 for bank-full.csv (4521 for bank.csv)
+## 5. Number of Instances: 45211 for bank-full.csv (4521 for bank.csv)
 
-## 5. Number of Attributes: 16 + output attribute.
+## 6. Number of Attributes: 16 + output attribute.
 
-## 6. Attribute information:
+## 7. Attribute information:
 
    For more information, read [Moro et al., 2011].
 

@@ -23,7 +23,16 @@ Since term deposit is one major stable and credible financing source of banks, h
 * The data is related with direct marketing campaigns of a Portuguese banking institution. It contains 4521 observations along with 16 features about information of clients as shown below:
 
 ![](./data.png)
-step1
+step1：Calculate the count and the subscribe percentage of each variable and plot for category variable
+
+
+step2: Plot the histogram of each variable For category variables for category variable
+
+
+step3: Calculate the correaltion of each variable
+
+
+step4: Balance the data (for the explained variable, the counts of 1 and 0 are 
 
 ## Attribute information:
 

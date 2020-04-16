@@ -38,8 +38,11 @@ Since term deposit is one major stable and credible financing source of banks, h
 ## 3.Model trainning 
 3.1 Applying PCA to the balanced data 
 ![](./pca.png)
+![](./distribution.png)
 3.2 Using first 2 PCA to train the logistic regresssion, SVM,KNN and decision tree.
-
+![](./lr.png)
+![](./svm.png)
+![](./knn.png)
 ## 4.CV and evaluation
 4.1 CV and learning curves
 

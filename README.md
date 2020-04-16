@@ -8,32 +8,49 @@
 |[Wang Lei](https://github.com/wlfengwuhen)| 1801212802 |
 |[Sun Xiuwen](https://github.com/Sunlalaa)| 1801212801 |
 
-## Introduction
+## 1.Introduction
 Banking industry plays an important role in national economies. However, with the integration of global economy and innovation of financial instruments, traditional commercial banks are facing unprecedentedly fierce competition and high risk of losing customers. With the advent of the era of big data, the banks who can efficiently and effectively find, understand, and serve customers will take the lead in the fierce market competition. With the ability of analysis, prediction and insight of big data, we'd like to use machine learning method to predict results of bank marketing for certain types of customers and try to achieve precision marketing in the future.
 
 Since term deposit is one major stable and credible financing source of banks, here we use data related to the marketing activities of Portuguese banking institutions to predict customers’ term deposit subscription behaviors and understand customers’ features to improve the effectiveness and accuracy of bank marketing. This forecast can help make a preliminary plan for future work of banks, and it also provides a reference for whether certain type of customers will subscribe to term deposits.
 
-## Data Sources
+   Data Sources
    Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,  https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
    
 
 
-## Data description and processing:
+## 2.Data description and processing:
 
 * The data is related with direct marketing campaigns of a Portuguese banking institution. It contains 41188 observations along with 16 features about information of clients as shown below:
 
 ![](./data.png)
-step1: Drop the observations which contains missingvalue, then our observations count changes to 30488
+2.1: Drop the observations which contains missingvalue, then our observations count changes to 30488
 
-step2：Calculate the count and the subscribe percentage of each variable and plot for category variable
+2.2: Calculate the count and the subscribe percentage of each variable and plot for category variable
 
-step3: Plot the histogram of each variable For category variables for category variable
+2.3: Plot the histogram of each variable for category variables for category variable
 
-step4: Calculate the correaltion of each variable
+2.4: Calculate the correaltion of each variable
 
-step5: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very inbalanced)
+2.5: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very inbalanced)
 
-step6: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
+2.6: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
+
+## 3.Model trainning 
+3.1 Applying PCA to the balanced data 
+
+3.2 Using first 2 PCA to train the logistic regresssion, SVM,KNN and decision tree.
+
+## 4.CV and evaluation
+4.1 CV and learning curves
+
+4.2 Evaluation Metrics
+
+4.3 ROC 
+
+## 5.Conclusion and possible improvements
+5.1 Conclusion
+
+5.2 Possible improvements
 
 ## Attribute information:
 

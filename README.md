@@ -55,7 +55,8 @@ Since term deposit is one major stable and credible financing source of banks, h
 2.4: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
 
 ## 3.Model trainning 
-3.1 Applying PCA to the balanced data. 
+3.1 Applying PCA to the balanced data
+
 <img src="pca.png" width="400" height="250"/>
 <img src="distribution.png" width="400" height="250"/>
 

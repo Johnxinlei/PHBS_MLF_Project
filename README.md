@@ -125,6 +125,6 @@ xxx's performance is the best and it's REC is xx and ROC AUC is xx, which means 
 
 Based on the above model, we use the Bagging algorithm to combine the above models, and the final prediction accuracy of the model is +++++.
 
-From the learning curve we can tell that our model can converge with a limited number of samples. And the fluctuation of model prediction accuracy is relatively small. However, the prediction accuracy is not good enough. So we still need to explore new mothod to improve the model and increase accuracy.
+From the learning curve we can tell that our model can converge with a limited number of samples. And the fluctuation of model prediction accuracy is relatively small. However, the prediction accuracy is not good enough. So we still need to explore new method to improve the model and increase accuracy.
 
 

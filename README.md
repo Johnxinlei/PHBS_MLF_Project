@@ -49,7 +49,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 Steps for data processing
 * Drop the observations which contains "unknown" value, then our observations count changes to 30488
 
-* Calculate the coefficient of each variable
+* Calculate the coefficient of each variable(only numerical variables)
 ![](./Picture/coefficient.png)
 
 * Check the Imbalance of the data, for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data   is very unbalanced. So we upsampling the minority class unit the number of two class are equal
@@ -138,7 +138,7 @@ Finally, we plot the ROC curve of our model. The resulting ROC curve indicates t
 |    LR     |     0.7100     |   0.697   |   0.740   |   0.718   |   0.76    |
 |    Decision tree     |     0.9046     |   0.860   |   0.914   |   0.886   |   0.95    |
 
-## 5.Conclusion and Possible Improvements
+## 5.Conclusion and Further Improvements
 5.1 Conclusion
 
 We use LR, SVM and decision tree models to make predictions. The accuracy of the model prediction before hyperparameter tuning is as follows:
@@ -151,7 +151,7 @@ We use LR, SVM and decision tree models to make predictions. The accuracy of the
 
 Decision Tree's performance is the best both before (part 3) and after (part 4) we tune the hyperparameters and it's REC is 91.4% and ROC AUC is 95%, which means through our model, we improve the effectiveness and accuracy of bank marketing significantly.
 
-5.2 Possible improvements
+5.2 Further improvements
 
 Based on the above model, we use the Ensemble learning to combine the above models
 * Bagging  
@@ -160,6 +160,6 @@ we implemented baggiing algorithm, and the train/test accuracies are 0.902/0.896
 * AdaBoost   
 we also implemented AdaBoost algorithm, the train/test accuracies are 1.000/0.966
 
-
+After using the ensemble learning method, we get obvious improvement, especially with AdaBoost algorithm.
 
 

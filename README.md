@@ -28,6 +28,7 @@ Since term deposit is one major stable and credible financing source of banks, h
 |contact| categorical| contact communication type "unknown","telephone","cellular" |
 |day| numeric| last contact day of the month|
 |month| numeric|last contact month of year |
+|duration | numeric| last contact duration, in seconds|
 |campaign| numeric| number of contacts performed during this campaign and for this client|
 |pdays| numeric| number of days that passed by after the client was last contacted from a previous campaign |
 |previous| numeric| number of contacts performed before this campaign and for this client|
@@ -39,6 +40,59 @@ Since term deposit is one major stable and credible financing source of banks, h
 |nr.employed| numeric| number of employees - quarterly indicator|
 |y| categorical| has the client subscribed a term deposit?binary: "yes","no"|
 
+## Attribute information:
+
+   Input variables:
+   * bank client data:
+   
+     `age (numeric)`
+   
+     `job` type of job (categorical: "admin.","unknown","unemployed","management","housemaid","entrepreneur","student",
+                                       "blue-collar","self-employed","retired","technician","services") 
+                                       
+     `marital` marital status (categorical: "married","divorced","single"; note: "divorced" means divorced or widowed)
+   
+     `education` (categorical: "unknown","secondary","primary","tertiary")
+   
+     `default` has credit in default? (binary: "yes","no")
+   
+     `housing` has housing loan? (binary: "yes","no")
+   
+     `loan` has personal loan? (binary: "yes","no") related with the last contact of the current campaign:
+       
+     `contact` contact communication type (categorical: "unknown","telephone","cellular") 
+   
+     `day` last contact day of the month (numeric)
+  
+     `month` last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
+  
+     `duration` last contact duration, in seconds (numeric)
+     
+  * other attributes:
+       
+     `campaign` number of contacts performed during this campaign and for this client (numeric, includes last contact)
+  
+     `pdays` number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was                not previously contacted)
+  
+     `previous` number of contacts performed before this campaign and for this client (numeric)
+  
+     `poutcome`: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
+ 
+  * social and economic context attributes: 
+  
+     `emp.var.rate` employment variation rate - quarterly indicator (numeric)
+  
+     `cons.price.idx` consumer price index - monthly indicator (numeric)
+     
+     `cons.conf.idx` consumer confidence index - monthly indicator (numeric)
+     
+     `euribor3m` euribor 3 month rate - daily indicator (numeric)
+     
+     `nr.employed` number of employees - quarterly indicator (numeric)
+
+  * Output variable (desired target):  
+  
+     `y` has the client subscribed a term deposit? (binary: "yes","no")
 
 ## 2.Data description and processing:
 

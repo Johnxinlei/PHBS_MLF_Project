@@ -50,7 +50,7 @@ Since term deposit is one major stable and credible financing source of banks, h
 
 2.2: Calculate the coefficient of each variable
 
-2.3: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very inbalanced)
+2.3: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very unbalanced)
 
 2.4: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
 

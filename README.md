@@ -55,7 +55,7 @@ Since term deposit is one major stable and credible financing source of banks, h
 2.4: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
 
 ## 3.Model trainning 
-3.1 Applying PCA to the balanced data
+3.1 Applying PCA to the balanced data after standardization
 
 <img src="pca.png" width="400" height="250"/>
 ** After sliptting the original data into training set and test set, we apply standardization and PCA to the training set and transform the training set and test set. Then we can find that the explained variance ratio of the two largest conponents account is more than 90%, so we choose two components for our following work.

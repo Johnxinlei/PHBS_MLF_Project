@@ -55,17 +55,15 @@ Since term deposit is one major stable and credible financing source of banks, h
 2.4: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
 
 ## 3.Model trainning 
-3.1 Applying PCA to the balanced data 
-
-<img src="pca.png" width="300" height="200"/>
-After splitting; 
-![](./distribution.png)
+3.1 Applying PCA to the balanced data; 
+<img src="pca.png" width="400" height="250"/>
+<img src="distribution.png" width="400" height="250"/>
 
 3.2 Using first 2 PCA to train the logistic regresssion, SVM,KNN and decision tree.
 
-![](./lr.png) 
-![](./svm.png) 
-![](./knn.png)
+<img src="lr.png" width="400" height="250"/>
+<img src="svm.png" width="400" height="250"/> 
+<img src="knn.png" width="400" height="250"/>
 
 ## 4.CV and evaluation
 4.1 CV and learning curves

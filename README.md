@@ -79,7 +79,19 @@ Since term deposit is one major stable and credible financing source of banks, h
 ## 5.Conclusion and possible improvements
 5.1 Conclusion
 
+We used LR, SVM and decision tree models to make predictions. The accuracy of the model prediction is as follows:
+
+|     MODEL   | ACCURACY |
+|-------------| ---------- | 
+|LR|++++|
+|SVM|++++|
+|Decision tree|+++++|
+Based on the above model, we use the Bagging algorithm to combine the above models, and the final prediction accuracy of the model is +++++.
+
 5.2 Possible improvements
+
+From the learning curve we can tell that our model can converge with a limited number of samples. And the fluctuation of model prediction accuracy is relatively small. However, the prediction accuracy is not good enough. We need to improve the model to increase accuracy.
+
 
 ## Attribute information:
 

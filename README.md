@@ -16,6 +16,28 @@ Since term deposit is one major stable and credible financing source of banks, h
    Data Sources
    Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,  https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
    
+|   Features  |    Type    | Description |
+|-------------| ---------- | ----------  |
+|age| numeric |age| 
+|job| categorical|type of job "married","divorced","single"; note: "divorced" means divorced or widowed |
+|marital| categorical|marital status "married","divorced","single"; note: "divorced" means divorced or widowed |
+|education| categorical| "unknown","secondary","primary","tertiary" |
+|default| categorical|has credit in default?  binary: "yes","no"|
+|housing| categorical|has housing loan? binary: "yes","no"|
+|loan| categorical| has personal loan? binary: "yes","no" related with the last contact of the current campaign|
+|contact| categorical| contact communication type "unknown","telephone","cellular" |
+|day| numeric| last contact day of the month|
+|month| numeric|last contact month of year |
+|campaign| numeric| number of contacts performed during this campaign and for this client|
+|pdays| numeric| number of days that passed by after the client was last contacted from a previous campaign |
+|previous| numeric| number of contacts performed before this campaign and for this client|
+|poutcome| categorical| outcome of the previous marketing campaign |
+|emp.var.rate| numeric| employment variation rate - quarterly indicator|
+|cons.price.idx| numeric| consumer price index - monthly indicator|
+|cons.conf.idx| numeric| consumer price index - monthly indicator|
+|euribor3m| numeric| euribor 3 month rate - daily indicator |
+|nr.employed| numeric| number of employees - quarterly indicator|
+|y| categorical| has the client subscribed a term deposit?binary: "yes","no"|
 
 
 ## 2.Data description and processing:

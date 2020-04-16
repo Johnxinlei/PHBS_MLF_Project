@@ -49,7 +49,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 2.1: Drop the observations which contains missing value, then our observations count changes to 30488
 
 2.2: Calculate the coefficient of each variable
-![](./coefficient.png)
+![](./Picture/coefficient.png)
 
 2.3: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very unbalanced)
 

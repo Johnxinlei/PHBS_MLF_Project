@@ -87,9 +87,14 @@ Decision Tree is much better than the other models. SVM with kernel is very clos
 
 First, we optimize the hyperparameters of the model by grid research using 10-fold cross validation. 
 
-Under Decision Tree method, the Gini index performs better for Classification error, and we limit the max depth to 8 to avoid overfitting. Finally, we get an optimal accuracy of 0.7269.
+Under LR method, the optimal value for C is 1, with which we can reach an accuracy of 0.7100.
 
-Then, to diagnose whether this model has a problem with overfitting or underfitting, we plot the learning curve of our model. As the figure shows, our model has small variance but relatively high bias, which may be our major challenge for model improvement.
+Under Decision Tree method, the Gini index performs better for Classification error, and we limit the max depth to 10 to avoid overfitting, getting an optimal accuracy of 0.9046.
+
+Under SVM, the optimal value for C is , for gamma is , with which we can get an accuracy of 
+
+
+Then, to diagnose whether this model has a problem with overfitting or underfitting, we plot the learning curve of our model. As the figure shows, our model has small variance but relatively high bias, which may be our major challenge for model improvement. Also, we find that the accuracy is stable ahter the sample size reaches 10000, which suggests that a relative smaller sample size than current sample size (30488) will be enough for our model training and testing.
 
 4.2 Evaluation Metrics
 
@@ -98,6 +103,10 @@ Next, we plot the confusion matrix of our model, from which we compute PRE as 73
 4.3 ROC 
 
 Finally, we plot the ROC curve of our model. The resulting ROC curve indicates that there is not much variance between the different folds, and the average ROC AUC is 0.77, which falls between a perfect score (1.0) and random guessing (0.5). This shows that our model performs quite well.
+
+|   Model   |    Accuracy    | Description |
+|-----------| -------------- | ----------  |
+|age| numeric |age| 
 
 ## 5.Conclusion and possible improvements
 5.1 Conclusion

@@ -94,7 +94,7 @@ The fourth classification model we used is KNN. The test accuracy is 0.722.
 
 
 
-Comparison:
+3.3 Comparison:
 
 Decision Tree is much better than the other models. SVM with kernel is very close to KNN and both are slitter better than Logistic. Regression. Decision tree, KNN and SVM with kernel is more suitbale for nonlinear classification.
 

@@ -59,7 +59,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 
 <img src="pca.png" width="400" height="250"/>
 
-After sliptting the original data into training set and test set, we apply standardization and PCA to the training set and transform the training set and test set. Then we can find that the explained variance ratio of the two largest conponents account is more than 90%, so we choose two components for our following work.
+After sliptting the original data into training set and test set, we apply standardization and PCA to the training set and transform the training set and test set. Then we can find that the explained variance ratio of the two largest conponents is more than 90%, so we choose two components for our following work.
 
 
 
@@ -92,8 +92,7 @@ The third classification model we used is Decision Tree. The test accuracy is 0.
 The fourth classification model we used is KNN. The test accuracy is 0.722.
 
 
-Comparison:
-
+Comparison:;
 Decision Tree is much better than the other models. SVM with kernel is very close to KNN and both are slitter better than Logistic. Regression. Decision tree, KNN and SVM with kernel is more suitbale for nonlinear classification.
 
 ## 4.CV and Model Evaluation

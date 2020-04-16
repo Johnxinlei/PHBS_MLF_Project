@@ -68,10 +68,19 @@ Since term deposit is one major stable and credible financing source of banks, h
 
 ## 4.CV and evaluation
 4.1 CV and learning curves
+First, we optimize the hyperparameters of the model by grid research using 10-fold cross validation. 
+
+Under Decision Tree method, the Gini index performs better for Classification error, and we limit the max depth to 8 to avoid overfitting. Finally, we get an optimal accuracy of 0.7269.
+
+Then, to diagnose whether this model has a problem with overfitting or underfitting, we plot the learning curve of our model. As the figure shows, our model has small variance but relatively high bias, which may be our major challenge for model improvement.
 
 4.2 Evaluation Metrics
 
+Next, we plot the confusion matrix of out model, from which we compute PRE as 73.6%, REC as 67.7% and F1 as 70.5%. Since we are aimed to find out the target clients who will subscribe term deposits, we care more about REC, which demonstrates the proportion of potential subscribers detected by the model. 67.7% of REC implies that among all the potential subscribers, our model can only detect 67.7% of them, which is acceptable but there is still much room for improvement.
+
 4.3 ROC 
+
+Finally, we plot the ROC curve of our model. The resulting ROC curve indicates that there is not much variance between the different folds, and the average ROC AUC is 0.77, which falls between a perfect score (1.0) and random guessing (0.5). This shows that our model performs quite well.
 
 ## 5.Conclusion and possible improvements
 5.1 Conclusion

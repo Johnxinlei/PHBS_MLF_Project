@@ -48,15 +48,11 @@ Since term deposit is one major stable and credible financing source of banks, h
 
 2.1: Drop the observations which contains missingvalue, then our observations count changes to 30488
 
-2.2: Calculate the count and the subscribe percentage of each variable and plot for category variable
+2.2: Calculate the correaltion of each variable
 
-2.3: Plot the histogram of each variable for category variables for category variable
+2.3: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very inbalanced)
 
-2.4: Calculate the correaltion of each variable
-
-2.5: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very inbalanced)
-
-2.6: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
+2.4: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
 
 ## 3.Model trainning 
 3.1 Applying PCA to the balanced data 

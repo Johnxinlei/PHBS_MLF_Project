@@ -103,7 +103,7 @@ Decision Tree is much better than the other models. SVM with kernel is very clos
 
 ## 4.CV and Model Evaluation
 
-SVM is quiet time-consuming, so we skip it in this part
+SVM is quiet time-consuming, and performed not very well in previous analysis, so we skip it in this part
 
 4.1 CV and learning curves
 

@@ -86,6 +86,7 @@ We used LR, SVM and decision tree models to make predictions. The accuracy of th
 |LR|++++|
 |SVM|++++|
 |Decision tree|+++++|
+
 Based on the above model, we use the Bagging algorithm to combine the above models, and the final prediction accuracy of the model is +++++.
 
 5.2 Possible improvements

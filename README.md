@@ -55,7 +55,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 
 2.4: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
 
-## 3.Model trainning 
+## 3.Model Training 
 3.1 Applying PCA to the balanced data after standardization
 
 <img src="pca.png" width="400" height="250"/>

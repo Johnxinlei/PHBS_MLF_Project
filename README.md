@@ -49,6 +49,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 2.1: Drop the observations which contains missing value, then our observations count changes to 30488
 
 2.2: Calculate the coefficient of each variable
+![](./Picture/coefficient.png)
 
 2.3: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very unbalanced)
 
@@ -93,7 +94,7 @@ The fourth classification model we used is KNN. The test accuracy is 0.722.
 
 
 
-Comparison:
+3.3 Comparison:
 
 Decision Tree is much better than the other models. SVM with kernel is very close to KNN and both are slitter better than Logistic. Regression. Decision tree, KNN and SVM with kernel is more suitbale for nonlinear classification.
 

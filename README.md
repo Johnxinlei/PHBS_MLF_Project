@@ -24,14 +24,12 @@ Since term deposit is one major stable and credible financing source of banks, h
 
 ![](./data.png)
 step1: Drop the observations which contains missingvalue, then our observations count changes to 30488
-step2：Calculate the count and the subscribe percentage of each variable and plot for category variable
 
+step2：Calculate the count and the subscribe percentage of each variable and plot for category variable
 
 step3: Plot the histogram of each variable For category variables for category variable
 
-
 step4: Calculate the correaltion of each variable
-
 
 step5: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very inbalanced)
 

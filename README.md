@@ -62,7 +62,7 @@ Since term deposit is one major stable and credible financing source of banks, h
 
 <img src="distribution.png" width="400" height="250"/>
 
-3.2 Using first 2 PCA to train the logistic regresssion, SVM,KNN and decision tree.
+3.2 Using first 2 PC to train the logistic regresssion, SVM,KNN and decision tree.
 
 <img src="lr.png" width="400" height="250"/>
 <img src="svm.png" width="400" height="250"/> 

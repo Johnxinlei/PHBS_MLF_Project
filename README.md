@@ -101,6 +101,9 @@ The fourth classification model we used is KNN. The test accuracy is 0.722.
 Decision Tree is much better than the other models. SVM with kernel is very close to KNN and both are slitter better than Logistic. Regression. Decision tree, KNN and SVM with kernel is more suitbale for nonlinear classification.
 
 ## 4.CV and Model Evaluation
+
+SVM is quiet time-consuming, so we skip it in this part
+
 4.1 CV and learning curves
 
 First, we optimize the hyperparameters of the model by grid research using 10-fold cross validation. 
@@ -132,7 +135,7 @@ Finally, we plot the ROC curve of our model. The resulting ROC curve indicates t
 |   Model   |    Accuracy    |    PRE    |    REC    |    F1     |  ROC AUC  |
 |-----------| -------------- |-----------|-----------|-----------|-----------|
 |    LR     |     0.7100     |   0.697   |   0.740   |   0.718   |   0.76    |
-|    DT     |     0.9046     |   0.860   |   0.914   |   0.886   |   0.95    |
+|    Decision tree     |     0.9046     |   0.860   |   0.914   |   0.886   |   0.95    |
 
 ## 5.Conclusion and Possible Improvements
 5.1 Conclusion

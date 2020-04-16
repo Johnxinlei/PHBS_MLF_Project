@@ -43,7 +43,7 @@ Since term deposit is one major stable and credible financing source of banks, h
 
 ## 2.Data description and processing:
 
-The data is related with direct marketing campaigns of a Portuguese banking institution. It contains 41188 observations along with 21 features about information of clients as shown below:
+The data is related with direct marketing campaigns of a Portuguese banking institution. It contains 41188 observations along with 20 features and 1 output variable shown below:
 ![](./data.png)
 
 Steps for data processing

@@ -13,9 +13,8 @@ Banking industry plays an important role in national economies. However, with th
 
 Since term deposit is one major stable and credible financing source of banks, here we use data related to the marketing activities of Portuguese banking institutions to predict customers’ term deposit subscription behaviors and understand customers’ features to improve the effectiveness and accuracy of bank marketing. This forecast can help make a preliminary plan for future work of banks, and it also provides a reference for whether certain type of customers will subscribe to term deposits.
 
-Data Sources
-   
-Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,  https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
+   Data Sources
+   Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,  https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.
    
 |   Features  |    Type    | Description |
 |-------------| ---------- | ----------  |
@@ -60,12 +59,16 @@ Created by: Paulo Cortez (Univ. Minho) and Sérgio Moro (ISCTE-IUL) @ 2012,  htt
 
 ## 3.Model trainning 
 3.1 Applying PCA to the balanced data 
+
 ![](./pca.png) 
 ![](./distribution.png)
+
 3.2 Using first 2 PCA to train the logistic regresssion, SVM,KNN and decision tree.
+
 ![](./lr.png) 
 ![](./svm.png) 
 ![](./knn.png)
+
 ## 4.CV and evaluation
 4.1 CV and learning curves
 

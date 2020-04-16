@@ -53,6 +53,7 @@ Steps for data processing
 ![](./Picture/coefficient.png)
 
 * Check the Imbalance of the data, for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data   is very unbalanced. So we upsampling the minority class unit the number of two class are equal
+![](./Picture/Upsampling.jpg)
 
 * Use "One-Hot Encoding" to divide category variables with multiple value into several dummy variables,because there are many category 
   variables in our dataset 

@@ -91,7 +91,7 @@ Then, to diagnose whether this model has a problem with overfitting or underfitt
 
 4.2 Evaluation Metrics
 
-Next, we plot the confusion matrix of out model, from which we compute PRE as 73.6%, REC as 67.7% and F1 as 70.5%. Since we are aimed to find out the target clients who will subscribe term deposits, we care more about REC, which demonstrates the proportion of potential subscribers detected by the model. 67.7% of REC implies that among all the potential subscribers, our model can only detect 67.7% of them, which is acceptable but there is still much room for improvement.
+Next, we plot the confusion matrix of our model, from which we compute PRE as 73.6%, REC as 67.7% and F1 as 70.5%. Since we are aimed to find out the target clients who will subscribe term deposits, we care more about REC, which demonstrates the proportion of potential subscribers detected by the model. 67.7% of REC implies that among all the potential subscribers, our model can only detect 67.7% of them, which is acceptable but there is still much room for improvement.
 
 4.3 ROC 
 
@@ -114,6 +114,6 @@ xxx's performance is the best and it's REC is xx and ROC AUC is xx, which means 
 
 Based on the above model, we use the Bagging algorithm to combine the above models, and the final prediction accuracy of the model is +++++.
 
-From the learning curve we can tell that our model can converge with a limited number of samples. And the fluctuation of model prediction accuracy is relatively small. However, the prediction accuracy is not good enough. So we still to explore some new mothod to improve the model and increase accuracy.
+From the learning curve we can tell that our model can converge with a limited number of samples. And the fluctuation of model prediction accuracy is relatively small. However, the prediction accuracy is not good enough. So we still need to explore new mothod to improve the model and increase accuracy.
 
 

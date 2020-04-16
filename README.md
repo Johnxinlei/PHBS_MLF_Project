@@ -107,22 +107,30 @@ Under LR method, the optimal value for C is 1, with which we can reach an accura
 
 Under Decision Tree method, the Gini index performs better for Classification error, and we limit the max depth to 10 to avoid overfitting, getting an optimal accuracy of 0.9046.
 
-Under SVM, the optimal value for C is , for gamma is , with which we can get an accuracy of 
+Then, to diagnose whether this model has a problem with overfitting or underfitting, we plot the learning curve of our model. As the figure shows, LR model (left side) has small variance but relatively high bias (around 0.710), which may be our major challenge for model improvement. Decision Tree model (right side) has both small variance and small bias (around 0.890), which implies that it's a better model compared to LR. Also, we find that the accuracy is stable ahter the sample size reaches 10000, which suggests that a relative smaller sample size than current sample size (30488) will be enough for our model training and testing.
 
-
-Then, to diagnose whether this model has a problem with overfitting or underfitting, we plot the learning curve of our model. As the figure shows, our model has small variance but relatively high bias, which may be our major challenge for model improvement. Also, we find that the accuracy is stable ahter the sample size reaches 10000, which suggests that a relative smaller sample size than current sample size (30488) will be enough for our model training and testing.
+<img src="Picture/lcurve.png" height="250"/>
 
 4.2 Evaluation Metrics
 
-Next, we plot the confusion matrix of our model, from which we compute PRE as 73.6%, REC as 67.7% and F1 as 70.5%. Since we are aimed to find out the target clients who will subscribe term deposits, we care more about REC, which demonstrates the proportion of potential subscribers detected by the model. 67.7% of REC implies that among all the potential subscribers, our model can only detect 67.7% of them, which is acceptable but there is still much room for improvement.
+Next, we plot the confusion matrix of our models. 
+
+For LR model (left side figure), we compute PRE as 69.7%, REC as 74.0% and F1 as 71.8%. Since we are aimed to find out the target clients who will subscribe term deposits, we care more about REC, which demonstrates the proportion of potential subscribers detected by the model. 74.0% of REC implies that among all the potential subscribers, our model can only detect 74.0% of them, which is acceptable but there is still much room for improvement.
+
+For Decision Tree model (right side figure), we compute PRE as 86.0%, REC as 91.4% and F1 as 88.6%, which imply that the model performs quite well. 91.4% of REC implies that among all the potential subscribers, our model can detect 91.4% of them, which is quite satisfying.
+
+<img src="Picture/lr_conf.png" height="250"/>
 
 4.3 ROC 
 
-Finally, we plot the ROC curve of our model. The resulting ROC curve indicates that there is not much variance between the different folds, and the average ROC AUC is 0.77, which falls between a perfect score (1.0) and random guessing (0.5). This shows that our model performs quite well.
+Finally, we plot the ROC curve of our model. The resulting ROC curve indicates that there is not much variance between the different folds, and the average ROC AUC for LR model (left side figure) is 0.76, which falls between a perfect score (1.0) and random guessing (0.5) and is acceptable. The average ROC AUC for Decision Tree model (right side figure) is 0.95, which shows that our model performs quite well.
 
-|   Model   |    Accuracy    | Description |
-|-----------| -------------- | ----------  |
-|age| numeric |age| 
+<img src="Picture/roc.png" height="250"/>
+
+|   Model   |    Accuracy    |    PRE    |    REC    |    F1     |  ROC AUC  |
+|-----------| -------------- |-----------|-----------|-----------|-----------|
+|    LR     |     0.7100     |   0.697   |   0.740   |   0.718   |   0.76    |
+|    DT     |     0.9046     |   0.860   |   0.914   |   0.886   |   0.95    |
 
 ## 5.Conclusion and possible improvements
 5.1 Conclusion

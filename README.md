@@ -46,14 +46,16 @@ Since term deposit is one major stable and credible financing source of banks, h
 The data is related with direct marketing campaigns of a Portuguese banking institution. It contains 41188 observations along with 21 features about information of clients as shown below:
 ![](./data.png)
 
-2.1: Drop the observations which contains missing value, then our observations count changes to 30488
+Steps for data processing
+* Drop the observations which contains "unknown" value, then our observations count changes to 30488
 
-2.2: Calculate the coefficient of each variable
+* Calculate the coefficient of each variable
 ![](./Picture/coefficient.png)
 
-2.3: Balance the data (Becuase for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data is very unbalanced)
+* Check the Imbalance of the data, for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data   is very unbalanced. So we upsampling the minority class unit the number of two class are equal
 
-2.4: Use "One-Hot Encoding" to divide one category variable with multiple value into several dummy variables
+* Use "One-Hot Encoding" to divide category variables with multiple value into several dummy variables,because there are many category 
+  variables in our dataset 
 
 ## 3.Model Training 
 3.1 Applying PCA to the balanced data after standardization
@@ -154,6 +156,6 @@ we implemented baggiing algorithm, and the train/test accuracies are 0.902/0.896
 * AdaBoost   
 we also implemented AdaBoost algorithm, the train/test accuracies are 1.000/0.966
 
-From the learning curve we can tell that our model can converge with a limited number of samples. And the fluctuation of model prediction accuracy is relatively small. However, the prediction accuracy is not good enough. So we still need to explore new method to improve the model and increase accuracy.
+
 
 

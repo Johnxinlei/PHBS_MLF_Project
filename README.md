@@ -132,7 +132,7 @@ Finally, we plot the ROC curve of our model. The resulting ROC curve indicates t
 |    LR     |     0.7100     |   0.697   |   0.740   |   0.718   |   0.76    |
 |    DT     |     0.9046     |   0.860   |   0.914   |   0.886   |   0.95    |
 
-## 5.Conclusion and possible improvements
+## 5.Conclusion and Possible Improvements
 5.1 Conclusion
 
 We use LR, SVM and decision tree models to make predictions. The accuracy of the model prediction is as follows:
@@ -141,9 +141,9 @@ We use LR, SVM and decision tree models to make predictions. The accuracy of the
 |-------------| ---------- | 
 |LR|0.709|
 |SVM|0.725|
-|Decision tree|0.717|
+|Decision tree|0.867|
 
-xxx's performance is the best and it's REC is xx and ROC AUC is xx, which means through our model, we improve the effectiveness and accuracy of bank marketing significantly.
+Decision Tree's performance is the best both before and after we tune the hyperparameters and it's REC is 91.4% and ROC AUC is 95%, which means through our model, we improve the effectiveness and accuracy of bank marketing significantly.
 
 5.2 Possible improvements
 

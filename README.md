@@ -58,15 +58,23 @@ Since term deposit is one major stable and credible financing source of banks, h
 3.1 Applying PCA to the balanced data
 
 <img src="pca.png" width="400" height="250"/>
-** After sliptting the original data into training set and test set, we apply standardization and PCA to the training set and transform the training set and test set. Then we can find that the explained variance ratio of the two largest conponents account is more than 90%, so we choose two components for our following work.
+* After sliptting the original data into training set and test set, we apply standardization and PCA to the training set and transform the training set and test set. Then we can find that the explained variance ratio of the two largest conponents account is more than 90%, so we choose two components for our following work.
 
 <img src="distribution.png" width="400" height="250"/>
+* The picture above shows the distribution of the training data afer using PCA. We can find that the data aren't linearly distributed. So linear clissification models may not work very well.
 
 3.2 Using first 2 PCA to train the logistic regresssion, SVM,KNN and decision tree.
 
 <img src="lr.png" width="400" height="250"/>
+* The first classification model we used is Logistic Regression. The test accuracy is 0.709.
 <img src="svm.png" width="400" height="250"/> 
+* The second classification model we used is SVM with kernel, which is better for nonlinear data. The test accuracy is 0.725.
 <img src="knn.png" width="400" height="250"/>
+* The third classification model we used is Decision Tree. The test accuracy is 0.867.
+* The fourth classification model we used is KNN. The test accuracy is 0.722.
+* Comparison:
+  Decision Tree is much better than the other models. SVM with kernel is very close to KNN and both are slitter better than Logistic   
+  Regression. Decision tree, KNN and SVM with kernel is more suitbale for nonlinear classification.
 
 ## 4.CV and evaluation
 4.1 CV and learning curves

@@ -68,8 +68,9 @@ Since term deposit is one major stable and credible financing source of banks, h
 <img src="svm.png" width="400" height="250"/> 
 <img src="knn.png" width="400" height="250"/>
 
-## 4.CV and evaluation
+## 4.CV and Model Evaluation
 4.1 CV and learning curves
+
 First, we optimize the hyperparameters of the model by grid research using 10-fold cross validation. 
 
 Under Decision Tree method, the Gini index performs better for Classification error, and we limit the max depth to 8 to avoid overfitting. Finally, we get an optimal accuracy of 0.7269.

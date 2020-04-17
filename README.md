@@ -129,7 +129,7 @@ For Decision Tree model (right side figure), we compute PRE as 86.0%, REC as 91.
 
 4.3 ROC 
 
-Finally, we plot the ROC curve of our model. The resulting ROC curve indicates that there is not much variance between the different folds, and the average ROC AUC for LR model (left side figure) is 0.76, which falls between a perfect score (1.0) and random guessing (0.5) and is acceptable. The average ROC AUC for Decision Tree model (right side figure) is 0.95, which shows that our model performs quite well.
+Finally, we plot the ROC curve of our model. The resulting ROC curve indicates that there is not much variance among the different folds, and the average ROC AUC for LR model (left side figure) is 0.76, which falls between a perfect score (1.0) and random guessing (0.5) and is acceptable. The average ROC AUC for Decision Tree model (right side figure) is 0.95, which shows that our model performs quite well.
 
 <img src="Picture/roc.png" height="250"/>
 

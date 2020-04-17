@@ -41,22 +41,23 @@ Since term deposit is one major stable and credible financing source of banks, h
 |y| categorical| has the client subscribed a term deposit?binary: "yes","no"|
 
 
-## 2.Data description and processing:
+## 2.Data Description and Processing
 
 The data is related with direct marketing campaigns of a Portuguese banking institution. It contains 41188 observations along with 20 features and 1 output variable shown below:
+
 ![](Picture/data.png)
 
-Steps for data processing
-* Drop the observations which contains "unknown" value, then our observations count changes to 30488
+Steps for data processing:
 
-* Calculate the coefficient of each variable(only numerical variables)
+* First, we drop the observations which contain "unknown" values, then our observations count decreases to 30488.
+
+* Second, we calculate the covariance between each variable (only numerical variables) and plot the covariance matrix. From the figure below, we can see that except the two variables of pdays and previous are relatively highly correlated, other variables don't exhibit obvious multicolinearity.
 ![](./Picture/coefficient.png)
 
-* Check the Imbalance of the data, for the explained variable y, the counts of "yes" and "no" are 3859 and 26629 ,which means the data   is very unbalanced. So we over-sampling the minority class unit the number of two class are equal
+* Third, we check the imbalance of the data. For the explained variable y, the counts of "yes" and "no" are 3859 and 26629 relatively, which means the data is very unbalanced. So we up-sampling the minority class unitil the number of observations in two classes are equal
 ![](./Picture/Upsampling.png)
 
-* Use "One-Hot Encoding" to divide category variables with multiple value into several dummy variables,because there are many category 
-  variables in our dataset 
+* Finally, we use "One-Hot Encoding" to divide categorical variables with multiple values into several dummy variables. Since there are many categorical variables in our dataset, after applying "one-hot encoding" the number of explanatory variables increases to 42.
 
 ## 3.Model Training 
 3.1 Applying PCA to the balanced data after standardization

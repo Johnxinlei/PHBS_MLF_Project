@@ -75,7 +75,7 @@ The picture above shows the distribution of the training data afer using PCA. We
 
 3.2 Using first 2 PC to train the logistic regresssion, SVM,KNN and decision tree.
 
-<img src="Picture/lr.png" width="400" height="250"/>
+<img src="Picture/lr1.png" width="400" height="250"/>
 
 The first classification model we used is Logistic Regression. The test accuracy is 0.709.
 

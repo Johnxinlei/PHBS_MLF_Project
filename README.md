@@ -113,7 +113,7 @@ Under LR method, the optimal value for C is 1, with which we can reach an accura
 
 Under Decision Tree method, the Gini index performs better for Classification error, and we limit the max depth to 10 to avoid overfitting, getting an optimal accuracy of 0.9046.
 
-Then, to diagnose whether this model has a problem with overfitting or underfitting, we plot the learning curve of our model. As the figure shows, LR model (left side) has small variance but relatively high bias (around 0.710), which may be our major challenge for model improvement. Decision Tree model (right side) has both small variance and small bias (around 0.890), which implies that it's a better model compared to LR. Also, we find that the accuracy is stable ahter the sample size reaches 10000, which suggests that a relative smaller sample size than current sample size (30488) will be enough for our model training and testing.
+Then, to diagnose whether this model has a problem with overfitting or underfitting, we plot the learning curve of our model. As the figure shows, LR model (left side) has small variance but relatively high bias (around 0.710), which may be our major challenge for model improvement. Decision Tree model (right side) has both small variance and small bias (around 0.890), which implies that it's a better model compared to LR. Also, we find that the accuracy is stable after the sample size reaches 10000, which suggests that a relative smaller sample size than current sample size (30488) will be enough for our model training and testing.
 
 <img src="Picture/lcurve.png" height="250"/>
 

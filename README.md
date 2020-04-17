@@ -52,9 +52,11 @@ Steps for data processing:
 * First, we drop the observations which contain "unknown" values, then our observations count decreases to 30488.
 
 * Second, we calculate the covariance between each variable (only numerical variables) and plot the covariance matrix. From the figure below, we can see that except the two variables of pdays and previous are relatively highly correlated, other variables don't exhibit obvious multicolinearity.
+
 ![](./Picture/coefficient.png)
 
-* Third, we check the imbalance of the data. For the explained variable y, the counts of "yes" and "no" are 3859 and 26629 relatively, which means the data is very unbalanced. So we up-sampling the minority class unitil the number of observations in two classes are equal
+* Third, we check the imbalance of the data. For the explained variable y, the counts of "yes" and "no" are 3859 and 26629 relatively, which means the data is very unbalanced. So we up-sampling the minority class unitil the number of observations in two classes are equal.
+
 ![](./Picture/Upsampling.png)
 
 * Finally, we use "One-Hot Encoding" to divide categorical variables with multiple values into several dummy variables. Since there are many categorical variables in our dataset, after applying "one-hot encoding" the number of explanatory variables increases to 42.

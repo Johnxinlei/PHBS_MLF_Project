@@ -45,7 +45,7 @@ Since term deposit is one major stable and credible financing source of banks, h
 
 The data is related with direct marketing campaigns of a Portuguese banking institution. It contains 41188 observations along with 20 features and 1 output variable shown below:
 
-![](Picture/data.png)
+![]<img src="Picture/data.png" width="400" height="250"/>
 
 Steps for data processing:
 
@@ -53,11 +53,11 @@ Steps for data processing:
 
 * Second, we calculate the covariance between each variable (only numerical variables) and plot the covariance matrix. From the figure below, we can see that except the two variables of pdays and previous are relatively highly correlated, other variables don't exhibit obvious multicolinearity.
 
-![](./Picture/coefficient.png)
+![]<img src="Picture/coefficient.png" width="400" height="250"/>
 
 * Third, we check the imbalance of the data. For the explained variable y, the counts of "yes" and "no" are 3859 and 26629 relatively, which means the data is very unbalanced. So we up-sampling the minority class unitil the number of observations in two classes are equal.
 
-![](./Picture/Upsampling.png)
+![]<img src="Picture/Upsampling.png" width="400" height="250"/>
 
 * Finally, we use "One-Hot Encoding" to divide categorical variables with multiple values into several dummy variables. Since there are many categorical variables in our dataset, after applying "one-hot encoding" the number of explanatory variables increases to 42.
 
@@ -68,13 +68,9 @@ Steps for data processing:
 
 After sliptting the original data into training set and test set, we apply standardization and PCA to the training set and transform the training set and test set. Then we can find that the explained variance ratio of the two largest conponents is more than 90%, so we choose two components for our following work.
 
-
-
 <img src="Picture/distribution.png" width="400" height="250"/>
 
 The picture above shows the distribution of the training data afer using PCA. We can find that the data aren't linearly distributed. So linear clissification models may not work very well.
-
-
 
 3.2 Using first 2 PC to train the logistic regresssion, SVM,KNN and decision tree.
 
@@ -82,13 +78,9 @@ The picture above shows the distribution of the training data afer using PCA. We
 
 The first classification model we used is Logistic Regression. The test accuracy is 0.709.
 
-
-
 <img src="Picture/svm.png" width="400" height="250"/> 
 
 The second classification model we used is SVM with kernel, which is better for nonlinear data. The test accuracy is 0.725.
-
-
 
 <img src="Picture/knn.png" width="400" height="250"/>
 

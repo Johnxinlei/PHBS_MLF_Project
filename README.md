@@ -82,11 +82,9 @@ The first classification model we used is Logistic Regression. The test accuracy
 
 The second classification model we used is SVM with kernel, which is better for nonlinear data. The test accuracy is 0.725.
 
+The third classification model we used is Decision Tree. The test accuracy is 0.867. Since it's not 2-dimensional, we didn't plot the figure.
+
 <img src="Picture/knn.png" width="400" height="250"/>
-
-The third classification model we used is Decision Tree. The test accuracy is 0.867.
-
-
 
 The fourth classification model we used is KNN. The test accuracy is 0.722.
 
@@ -155,8 +153,12 @@ We implement baggiing algorithm, and the train/test accuracies are 0.902/0.896
 * AdaBoost   
 We also implement AdaBoost algorithm, the train/test accuracies are 1.000/0.966
 
-* Random Forest
+* Random Forest   
 Finally, to avoid overfitting problem and reduce high variance of individual decision tree, we implement Random Forest algorithm, average multiple (deep), the train/test accuracies are 0.889/0.882.
+
+More specifically, average ROC is 0.95, and we also compute RF method's PRE as 83.9%, REC as 95.2% and F1 as 89.2%, which imply that the model performs quite satisfying - among all the potential subscribers, RF model can detect 95.2% of them, which achieves our precise targeting goal.
+
+<img src="Picture/rf.png" height="250"/>
 
 After using the ensemble learning method, we get obvious improvement, especially with AdaBoost algorithm.
 

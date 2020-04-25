@@ -150,10 +150,13 @@ Decision Tree's performance is the best both before (part 3) and after (part 4) 
 
 Based on the above model, we use the Ensemble learning to combine the above models
 * Bagging  
-we implement baggiing algorithm, and the train/test accuracies are 0.902/0.896
+We implement baggiing algorithm, and the train/test accuracies are 0.902/0.896
 
 * AdaBoost   
-we also implement AdaBoost algorithm, the train/test accuracies are 1.000/0.966
+We also implement AdaBoost algorithm, the train/test accuracies are 1.000/0.966
+
+* Random Forest
+Finally, to avoid overfitting problem and reduce high variance of individual decision tree, we implement Random Forest algorithm, average multiple (deep), the train/test accuracies are 0.889/0.882.
 
 After using the ensemble learning method, we get obvious improvement, especially with AdaBoost algorithm.
 

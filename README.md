@@ -75,6 +75,10 @@ We applied random forest method to see the relative importance of each feature. 
 
 From the cofficient of features in part 2, we can find there is a high correlation between some features, like the euribor3m and the nr.employed, so we applied standardization and PCA to the data to reduce its dimensionality. Then we can find that the explained variance ratio of the two largest conponents is more than 90%, so we choose two components for our following work. PC1 and PC2 are the new features produced by combinations of all of the previous features and they are orthogonal, i.e. not correlated.
 
+The weights of features in PC1 and PC2 are as follows. Feature 'campaign' has the largest weight in PC1. And feature 'emp.var.rate' has the largest weight in PC2.If we used the first two components to predict, 'campaign' and 'emp.var.rate' are the two most important features.
+
+<img src="Picture/weight_PCA.png" width="450" height="500"/>
+
 <img src="Picture/distribution.png" width="450" height="300"/>
 
 The picture above shows the distribution of the training data afer using PCA. We can find that the data aren't linearly distributed. So linear clissification models may not work very well.

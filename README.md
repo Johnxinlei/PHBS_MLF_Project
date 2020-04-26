@@ -135,21 +135,21 @@ Finally, we plot the ROC curve of our model. The resulting ROC curve indicates t
 
 <img src="Picture/roc.png" height="250"/>
 
-|   Model   |    Accuracy    |    PRE    |    REC    |    F1     |  ROC AUC  |
-|-----------| -------------- |-----------|-----------|-----------|-----------|
-|    LR     |     0.7100     |   0.697   |   0.740   |   0.718   |   0.76    |
-|    Decision tree     |     0.9046     |   0.860   |   0.914   |   0.886   |   0.95    |
+|   Model   |    Accuracy    |    PRE    |    REC    |    F1     |  ROC AUC  | Best Parameters|
+|-----------| -------------- |-----------|-----------|-----------|-----------|----------|
+|    LR     |     0.7100     |   0.697   |   0.740   |   0.718   |   0.76    | 'C': 1 |
+|    Decision tree     |     0.9046     |   0.860   |   0.914   |   0.886   |   0.95    | 'criterion': 'gini', 'max_depth': 10|
 
 ## 5.Conclusion and Further Improvements
 5.1 Conclusion
 
 We use LR, SVM and decision tree models to make predictions. The accuracy of the model prediction before hyperparameter tuning is as follows:
 
-|     MODEL   | ACCURACY |
-|-------------| ---------- | 
-|LR|0.709|
-|SVM|0.725|
-|Decision tree|0.867|
+|     MODEL   | ACCURACY | Parameters |
+|-------------| ---------- | ---------|
+|LR|0.709|default parameters |
+|SVM|0.725|default parameters |
+|Decision tree|0.867| max_depth = 9|
 
 Decision Tree's performance is the best both before (part 3) and after (part 4) we tune the hyperparameters and it's REC is 91.4% and ROC AUC is 95%, which means through our model, we improve the effectiveness and accuracy of bank marketing significantly.
 

@@ -145,7 +145,7 @@ Finally, we plot the ROC curve of our model. The resulting ROC curve indicates t
 
 We use LR, SVM and decision tree models to make predictions. The accuracy of the model prediction before hyperparameter tuning is as follows:
 
-|     MODEL   | ACCURACY | Parameters |
+|     Model   | Accuracy | Parameters |
 |-------------| ---------- | ---------|
 |LR|0.709|default parameters |
 |SVM|0.725|default parameters |
